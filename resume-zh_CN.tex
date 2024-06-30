@@ -5,109 +5,137 @@
 \documentclass{resume}
 \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage[linkcolor=black]{hyperref} % 
 \usepackage{linespacing_fix} % disable extra space before next section
 \usepackage{cite}
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{江涛}
+\name{王庆（Vincent）}
+
+\contactInfo{\textbf{电话:} (+86) 19821243355} {\textbf{邮箱:} \href{mailto:vincent.w.qing@gmail.com}{vincent.w.qing@gmail.com}}{\textbf{GitHub:} \href{https://github.com/Vincent-wq}{https://github.com/Vincent-wq}}{}
 
 % {E-mail}{mobilephone}{homepage}
 % be careful of _ in emaill address
-\contactInfo{(+86) 132-6029-9910}{hijiangtao@gmail.com}{Web前端研发工程师}{GitHub @hijiangtao}
 % {E-mail}{mobilephone}
 % keep the last empty braces!
 %\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
  
-\section{个人总结}
-本人在校成绩优秀、乐观向上，工作负责、自我驱动力强、热爱尝试新事物，认同开放、连接、共享的Web在未来的不可替代性。在校期间长期从事可视分析(Web的2D/3D时空可视化)相关研究，对Web技术发展趋势及前端工程化解决方案有浓厚兴趣。\textbf{现任职于阿里巴巴集团。}
+\section{目前职位}
+\textbf{助理研究员}，影像数据中心，上海交通大学医学院附属精神卫生中心 （2022.9-至今）\textbf{}\\
+1. 基于共识推断和因果推断的强迫症小脑影像标志物研究；\\
+2. 正念干预精神分裂症起效的因果效应与机制研究。
 
-% \section{\faGraduationCap\ 教育背景}
+%% Current research interests
+\section{研究兴趣}
+{\bf 神经数据科学与神经信息学}\\
+1. {\bf 因果推断和因果学习}及其应用（ 统计与人工智能前沿）；\\
+2. {\bf 神经信息学(neuroinformatics)}（大数据与平台能力）；\\
+3. {\bf 多源异构数据建模与分析}（神经影像：s/f/dMRI，i/M/EEG/LFP，行为数据，临床评估数据，移动和传感数据等，神经和精神疾病的分类与进展建模（大数据建模与计算能力）。 \\
+
+%% Education
 \section{教育背景}
-\datedsubsection{\textbf{中国科学院大学},计算机应用技术,\textit{在读硕士研究生}}{2015.9 - 2018.6}
-\ \textbf{排名11/133(前10\%)},中国科学院大学学业奖学金(2次),IEEE Student member,预计2018年6月毕业
-\datedsubsection{\textbf{北京理工大学},软件工程,\textit{工学学士}}{2011.9 - 2015.6}
-\ \textbf{排名2/62(前5\%)},国家励志奖学金,人民奖学金(7次),科技竞赛奖(2次),北京市普通高等学校优秀毕业生,北京理工大学优秀毕业生,软件学院金牌毕业生,优秀团员/优秀学生(5次)
-\datedsubsection{\textbf{荷兰 莱顿大学},计算机科学与技术,\textit{国家留学基金委公派交换生}}{2015.3 - 2015.5}
-\ 2014年中国政府奖学金(\textit{http://www.csc.edu.cn/}),DID-ACTE项目交换生(\textit{http://did-acte.org/})
+{\bf 北京邮电大学} \hfill {\em 2012年9月 - 2017年1月} \\
+\textbf{博士}，信息与通信系统工程 \hfill {田辉 教授}\\
+网络与交换国家重点实验室\\
+{\bf 北京邮电大学} \hfill {\em 2010年9月 - 2012年6月} \\
+\textbf{硕士}，电路与系统 \hfill {范春晓 教授}\\
+无线新技术教育部重点实验室\\
+{\bf 中南大学} \hfill {\em 2006年6月 - 2010年6月} \\
+\textbf{本科}，电子信息科学与技术 \hfill {许雪梅 教授}
 
-% \section{\faCogs\ IT 技能}
+%% Research Exp
+\section{研究经历}
+\datedsubsection{\textbf{1.博士后, 开放和可重复神经数据科学, 蒙特利尔神经所（MNI）,麦吉尔大学\\}}{导师:\textbf{Jean-Baptiste Poline和Abbas Sadikot}, \textbf{2019.11 - 2022.9}}
+\begin{itemize}
+  \item \textbf{晚期特发性震颤小脑影像标志物的可靠性研究},研究采用预注册加二轮评审模式，是\emph{目前研究该问题规模最大、方法最严谨、统计效力最高的研究工作}；
+  \item \textbf{神经信息学与标准影像处理工作流}，协助维护MNI数据镜像（2PB+），我在该项目中构建的影像处理流程已被原实验室拓展和泛化为\emph{领域影像标准工作流}进行领域推广（\href{https://github.com/neurodatascience/nipoppy}{\bf{Nipoppy}}）； 
+  \item \textbf{协助完成麦吉尔量化生命科学课程} \href{https://neurodatascience.github.io/QLS612-Overview/}{QLSC612: 神经数据科学}。
+\end{itemize}
+
+\datedsubsection{\textbf{2.博士后, 脑连接估计和对比, 中古联合实验室, 电子科技大学\\}}{导师:\textbf{Pedro Valdes-Sosa}（外专千人，\textbf{2024国际科学技术合作奖}） , \textbf{2017.3 - 2019.10}}
+\begin{itemize}
+  \item \textbf{基于猕猴同步脑电与皮质脑电估计和对比源功能连接}，完成同步脑电和皮质脑电源连接对比平台并将代码开源；
+  \item \textbf{建设、维护和管理研究中心计算平台}（1000+核，500T存储）, 部署CBRAIN计算平台与LORIS存储平台； 
+  \item 参加2018年OHBM hackathon并\textbf{讲授Git/Github课程}。
+\end{itemize}
+
+\datedsubsection{\textbf{3.研究助理, 计算教育学, 大数据研究中心, 电子科技大学\\}}{导师:\textbf{周涛}（中心主任，成都数之联科技有限公司创始人） , \textbf{2015.6 - 2018.9}}
+\begin{itemize}
+  \item 计算教育学，基于匿名学生卡数据(电子记录数据)和量表数据, 量化学生性格(大五人格)，基于此提高对学生成绩的预测精度；
+  \item 量化研究学生社会经济地位对其学业表现的影响。
+\end{itemize}
+
+\datedsubsection{\textbf{4.博士生, 计算社会学, 网络与交换国家重点实验室, 北京邮电大学\\}}{导师:\textbf{田辉}（研究室主任） , \textbf{2012.9 - 2017.3}}
+\begin{itemize}
+  \item 基于通信数据研究个人中心网络(ECN)，发现了个人中心网络的新圈层及其特性（\textbf{成果被《科学年鉴》相关章节引用}）；
+  \item 开发了egoPortray可视分析系统 \textbf{（MMM2017, CCF-A会议）}；
+  \item 提出了基于云片的多终端协同内容分发网络边缘计算构架。
+\end{itemize}
+
+\section{教学经验}
+% increase linespacing [parsep=0.5ex]
+\datedsubsection{1. \textbf{《机器学习及其在神经影像中的应用》},上海交通大学,\href{https://github.com/Tutorial-series/nilearn\_course}{nilearn\_course}，2024；}{}
+\datedsubsection{2. \href{https://github.com/Vincent-wq/causal_course_eeg}{\textbf{《Causality and mediation tools for q-EEG and clinical applications》}}，\textbf{OHBM 2024}《Global Open Science Electrophysiology》，co-organizer，2024；}{}
+\datedsubsection{3. \href{https://neurodatascience.github.io/QLS612-Overview/}{\bf{《QLSC612: 神经数据科学》}}, 麦吉尔大学, 2021-2022；}{}
+\datedsubsection{4. \href{https://github.com/Tutorial-series/git_github_4OHBMhackthon2018_qingwang}{\bf{《Git/Github for beginners》}}, OHBM 2018 - brainhack, 2021-2022。}{}
+\datedsubsection{5. \href{https://github.com/Tutorial-series/fmriprep_vincent_2020}{\bf{《fMRIPrep教程: 实用指南》}}, 2020-2021；}{}
+
+\section{基金与奖励}
+% increase linespacing [parsep=0.5ex]
+\datedsubsection{1. 《连续θ爆发序列刺激治疗强迫症起效的动态计算机制研究》，23zd01，上海市精神卫生中心院级重点项目，30万元人民币，2024-2027；}{}
+\datedsubsection{2. 《晚期特发性震颤小脑影像标志物的可靠性研究》,获麦吉尔计算医学项目\href{https://www.mcgill.ca/micm/programs/micm-researchmatch-0/researchmatch-v3-joint-projects}{MiCM Research Match V3.0}和\href{https://www.mcgill.ca/micm/programs/micm-researchmatch-0/researchmatch-v4-results}{V4.0}两期资助，麦吉尔大学，共计21,000加元，2020-2022。}{}
+
+% \section{\faInfo\ 社会实践/其他}
+\section{学术服务}
+\datedsubsection{1. \href{https://ossig.netlify.app/\#OSSIG_team}{OHBM （脑图谱领域顶级国际会议） Hackathon \textbf{联席主席}（2023,2024）};}{}
+\datedsubsection{2. \href{https://open-sci.cn/index.html\#!}{开放科学中文社区委员会资深委员};}{}
+\datedsubsection{3. 审稿人：Imaging Neuroscience, NeuroImage, Brain Topography, PLoS Computational Biology, PLoS ONE, Frontiers in Neuroinformatics, OHBM annual meeting, European Physics Letters and \textit{etc.};}{}
+
+\section{期刊论文}
+(1) Mou Xinyu, Cuilin He, Liwei Tan, ...,\textbf{Qing Wang}, et al. ‘ChineseEEG: A Chinese Linguistic Corpora EEG Dataset for Semantic Alignment and Neural Decoding’. Scientific Data 11, no. 1 (29 May 2024): 550. \\
+(2)\textbf{Qing Wang}*, Qiao Wang, Ru-yuan Zhang. Claim Causality with Clarity.Psychoradiology 3 (1 March 2023): kkad007. \\
+(3) Haiyang Jin\#,\textbf{Qing Wang}\#,..., Xinian Zuo, Chuanpeng Hu*. The Chinese Open Science Network (COSN): Building an Open Science community from scratch, Advances in Methods and Practices in Psychological Science 6, no. 1 (27 March 2023): 1–17. (\textbf{IF=15.8})\\
+(4) \textbf{Qing Wang}\#, Meshal Aljassar1\#,Nikhil Bhagwat,Yashar Zeighami,Alan C Evans,Alain Dagher,G.Bruce Pike,Abbas F. Sadikot*,Jean-BaptistePoline*. Reproducibility of Cerebellar involvement as quantified by consensus structural MRI biomarkers in Advanced Essential Tremor, Scientific Reports 13, no. 1 (11 January 2023): 581.\\
+(5) Ren Peng*, Sunpei Huang, Yukun Feng, Jinying Chen, \textbf{Qing Wang}, et al. Assessment of Balance Control Subsystems by Artificial Intelligence. IEEE Transactions on Neural Systems and Rehabilitation Engineering, no. 28.3(2020):658-668.\\
+(6) \textbf{Qing Wang}, Pedro A Vald{\'e}s-Hernandez, Jorge Bosch-Bayard, Naoya Oosugi, Misako Komatsu, Naotaka Fujii, and Pedro A Vald{\'e}s-Sosa*. EECoG-Comp: An Open Source Platform for Concurrent EEG ECoG Comparisons. Brain Topogr., no. 32(2019): 550-568.\\
+(7) Ren Peng*, Shiang Hu, Zhenfeng Han, \textbf{Qing Wang}, et al. Movement Symmetry Assessment by Bilateral Motion Data Fusion. IEEE Transactions on Biomedical Engineering 66, no. 1 (2018): 225-236.\\
+(8) Kiar Gregory, Robert J Anderson, ... , Pedro A Vald{\'e}s-Sosa, \textbf{Qing Wang}, ... et al. NeuroStorm: Accelerating Brain Science Discovery in the Cloud. arXiv: 1803.03367 (2018). \\
+(9) Cao, Yi, Jian Gao, Defu Lian, Zhihai Rong, Jiatu Shi, \textbf{Qing Wang}, Yifan Wu, Huaxiu Yao, and Tao Zhou*. Orderliness predicts academic performance: behavioural analysis on campus lifestyle. Journal of The Royal Society Interface 15, no. 146 (2018): 20180210.\\
+(10) \textbf{Qing Wang}, Jian Gao, Tao Zhou*, Zheng Hu, and Hui Tian*. Critical size of ego communication networks. EPL (Europhysics Letters) 114, no. 5 (2016): 58004.\\
+(11) \textbf{Qing Wang}, Hu Zheng*, Wang Ming, and Liu Haifeng. Cactse: Cloudlet aided cooperative terminals service environment for mobile proximity content delivery. China Communications 10, no. 6 (2013): 47-59.\\
+(12) Zhou Lichao, Xu Xuemei*, Li An and \textbf{Qing Wang}. System of Home Monitoring and Controlling Based on ZigBee and Infrared [J]. Modern Electronics Technique 17 (2010).\\
+
+\section{会议论文}
+(13) \textbf{Qing Wang}, Pedro A Valdes-Hernandez, and Pedro A Vald{\'e}s-Sosa*. S129. An open source platform for concurrent EEG ECoG comparisons. Clinical Neurophysiology 129 (2018): e190.\\
+(14) \textbf{Qing Wang}*, Jiansu Pu, Yuanfang Guo, Zheng Hu, and Hui Tian. egoPortray: Visual Exploration of Mobile Communication Signature from Egocentric Network Perspective. In International Conference on Multimedia Modeling, pp. 649-661. Springer, Cham, 2017. (\textbf{CCF-A})\\
+(15) Han Mei, \textbf{Qing Wang}, Rao Yunbo, and Jiansu Pu*. egoStellar: Visual Analysis of Anomalous Communication Behaviors from Egocentric Perspective. In Computer and Information Science Communications 2018.\\
+
+%% Techni
 \section{技术能力}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.2ex]
-  \item \textbf{编程语言}: JavaScript (ECMAScript, Node.js), HTML/CSS, Python, Go, SQL, C, Shell
-  \item \textbf{操作系统,数据库与工程构建}: Linux/macOS/MySQL/MongoDB/Git/webpack/Progressive Web App
-  \item \textbf{关键词}: React/Vue.js/D3.js(SVG)/three.js(canvas, WebGL)/chrome extension/Express
+  \item \textbf{神经影像处理}: MEEG: MNE, BrainStorm, EEGLab, FieldTrip;MRI: fMRIPrep, SPM, FSL, Freesurfer, ANTs(itksnap), Nipy, Nilearn, heudiconv, fMRIPrep, MRIQC, TracoFlow, Dipy, etc.;
+  \item \textbf{大数据计算}: HDF5, HDFS (distributed storage), Hadoop\&Spark, CBRAIN(computing), LORIS (database), Compute Canada (Globus), CONP and SLURM, singularity, docker et al.
+  \item \textbf{信息可视化}: D3js, eChart, and python libraries like seaborn, ggplot, Bokeh, and matplotlib, et al.
+  \item \textbf{通用编程与工具}: Linux and windows programming environments, Python(numpy, scipy, pandas, statsmodels, scikit-learn, pymc3, matplotlib, pyTorch, etc); Matlab, R, scala, JS, C++,Git/GitHub, Office365, Adobe AI,PS, et al.
 \end{itemize}
 
-% \end{itemize}
-
-\section{实习经历}
-\datedsubsection{\textbf{阿里巴巴集团 | Alibaba}, 前端开发工程师}{2017.6-2017.9}
-\begin{itemize}
-%   \item 飞猪北京前端团队全面负责各交通线的票务(机票/火车票/汽车票) web 应用与事业群基础架构研发
-  \item 独立负责车站地图开发(React),通过HTML5 本地存储及JSBridge实现在阿里全系应用中发布上线
-  \item 独立负责BU SPM chrome插件开发,支付成功/订单详情等页面的开发与交叉营销的接入工作
-\end{itemize}
-
-\datedsubsection{\textbf{北京腾云天下科技有限公司 | TalkingData},数据挖掘与可视化工程师}{2015.11-2017.5}
-\begin{itemize}
-  \item \textbf{利用海量用户定位数据，对城市空间及人群移动特征进行研究。}第一个课题是基于香农熵和人群出行模式，构建城市网格与用户矩阵分析城市多样性/流动性分布；可视分析平台前端与可视化基于D3/Vue/Express开发，数据分析与存储采用Python/MySQL/MongoDB技术，为了均衡大数据情况下的页面可视化渲染消耗用canvas替代svg。第二个课题是对海量商场定位数据做人群分类与可视化查询，依据该系统撰写的论文被CIKM 2016(DAVA Workshop)录用，并收录于中科院软件所年会成果集
-  \item 负责数据科学部HQ LAB的可视化原型开发，主导 TalkingMind 平台系统设计与前端开发
-\end{itemize}
-
-\datedsubsection{\textbf{北京格灵深瞳信息技术有限公司 | DeepGlint},Web开发工程师}{2015.7-2015.9}
-\begin{itemize}
-  \item \textbf{独立负责MUSE部门的可视化组件研发。}与平台研发、设计协作完成 DeepGlint Developer 平台可视化图表组件的集成开发，符合完全定制化渲染、响应式布局与实时更新等特点
-  \item 利用 D3+Vue+WebGL(Three.js) 尝试实现三维空间的人群移动可视化
-\end{itemize}
-
-% \begin{onehalfspacing}
-% \end{onehalfspacing}
-
-% \datedsubsection{\textbf{DID-ACTE} 荷兰莱顿}{2015年3月 - 2015年6月}
-% \role{本科毕业设计}{LIACS 交换生}
-% 利用结巴分词对中国古文进行分词与词性标注，用已有领域知识训练形成 classifier 并对结果进行调优
-% \begin{onehalfspacing}
-% \begin{itemize}
-%   \item 利用结巴分词对中国古文进行分词与词性标注
-%   \item 利用已有领域知识训练形成 classifier, 并用分词结果进行测试反馈
-%   \item 尝试不同规则，对 classifier 进行调优
-% \end{itemize}
-% \end{onehalfspacing}
-
-\section{竞赛获奖/项目作品}
+%% Techni
+\section{推荐人}
 % increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.2ex]
-%   \item LeetCodeOJ Solutions, \textit{https://github.com/hijiangtao/LeetCodeOJ}
-  \item 第三届中国软件杯大学生软件设计大赛\textbf{全国一等奖}( \textit{http://www.cnsoftbei.com/} ),2014 年8月
-  \item 中国机器人大赛创意设计大赛\textbf{全国特等奖}( \textit{http://www.rcccaa.org/} ),2013年8月
-%   \item 中国机器人大赛暨Robocup公开赛(武术擂台赛)全国一等奖,2013年10月
-  \item 第11届北京理工大学“世纪杯”竞赛学生课外科技作品竞赛\textbf{特等奖},2013年8月
-  \item VIS Components for security system, \textit{https://hijiangtao.github.io/ss-vis-component/}
-  \item 个人博客：\textit{https://hijiangtao.github.io/}，更多作品见 \textit{https://github.com/hijiangtao}
-%   \item 电视节目"爸爸去哪儿"可视化分析展示, \textit{https://hijiangtao.github.io/variety-show-hot-spot-vis/}
-\end{itemize}
+\datedsubsection{\textbf{Jean-Baptiste Poline教授}(博士后导师)，神经内科和神经外科，麦吉尔大学；Neurohub平台主席，加拿大开放神经科学平台(CONP)技术委员会主席；Ludmer神经信息与心理健康中心PI}{}
+\textbf{邮件}: \href{jean-baptiste.poline@mcgill.ca}{jean-baptiste.poline@mcgill.ca}\\
+主页: \href{https://www.mcgill.ca/neuro/jean-baptiste-poline-phd}{https://www.mcgill.ca/neuro/jean-baptiste-poline-phd}\\
 
-% \section{\faHeartO\ 项目/作品摘要}
-% \section{项目/作品摘要}
-% \datedline{\textit{An Integrated Version of Security Monitor Vis System}, https://hijiangtao.github.io/ss-vis-component/ }{}
-% \datedline{\textit{Dark-Tech}, https://github.com/hijiangtao/dark-tech/ }{}
-% \datedline{\textit{融合社交网络数据挖掘的电视节目可视化分析系统}, https://hijiangtao.github.io/variety-show-hot-spot-vis/}{}
-% \datedline{\textit{LeetCodeOJ Solutions}, https://github.com/hijiangtao/LeetCodeOJ}{}
-% \datedline{\textit{Info-Vis}, https://github.com/ISCAS-VIS/infovis-ucas}{}
+\datedsubsection{\textbf{Pedro A Vald{\'e}s-Sosa教授}|(博士后导师)，外专千人，2024国际科学技术合作奖，拉丁美洲科学院院士，中国-古巴神经科技转化前沿研究联合实验室主任，电子科技大学}{}
+\textbf{邮件}: \href{pedro.valdes@neuroinformatics-collaboratory.org}{pedro.valdes@neuroinformatics-collaboratory.org}\\
+主页: \href{https://en.wikipedia.org/wiki/Pedro\_Vald\%C3\%A9s}{https://en.wikipedia.org/wiki/Pedro\_Vald\%C3\%A9s}\\
 
-
-% \section{\faInfo\ 社会实践/其他}
-\section{社区参与/实践其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.2ex]
-  \item 乐于参与开源社区讨论,\textbf{参与翻译 Vue.js, webpack, WebAssembly, Babel 文档，印记中文成员}
-  \item 中国科学院大学2016秋季学期可视化与可视分析课程助教，\textit{http://vis.ios.ac.cn/infovis-ucas/}
-  \item 未来论坛学生会成员、北理社联新闻信息中心主任、北理工软件学院学生会宣传部副部长(2012-2016)
-  \item 2013-2015 北京市共青团“温暖衣冬”志愿者,第九届园博会志愿者,2014 FLL机器人世锦赛志愿者
-\end{itemize}
+\datedsubsection{\textbf{Alan C Evans教授}(主要合作者)，加拿大皇家科学院院士，神经内科和神经外科，James McGill教授，McConnell影像中心，Ludmer神经信息与心理健康中心联合主任，麦吉尔大学}{}
+\textbf{邮件}: \href{alan@bic.mni.mcgill.ca}{alan@bic.mni.mcgill.ca}\\
+主页: \href{https://www.mcgill.ca/neuro/research/researchers/evans}{https://www.mcgill.ca/neuro/research/researchers/evans}\\
 
 %% Reference
 %\newpage
